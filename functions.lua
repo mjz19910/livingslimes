@@ -176,6 +176,7 @@ function livingslimes.register_slime(name,def)
 	local mob = "livingslimes:" .. tname
 	creatura.register_mob(mob,{
 		-- Engine properties
+		initial_properties = {},
 		infotext = name .. " Slime",
 		visual_size = { x = def.size, y = def.size },
 		visual = "mesh",
