@@ -37,7 +37,7 @@ function livingslimes.register_slime(name,def)
 		tiles = {"livingslimes_slime_block.png^[colorize:" .. def.color .. "^[colorize:#000:25"},
 		description = name .. " Slime Block",
 		drawtype = "allfaces_optional",
-		use_texture_alpha = true,
+		use_texture_alpha = "blend",
 		groups = {
 			slippery = 1,
 			crumbly = 3,
@@ -184,7 +184,7 @@ function livingslimes.register_slime(name,def)
 		textures = {
 			{"livingslimes_slime_block.png^[colorize:" .. def.color,"livingslimes_slime_block.png^[colorize:" .. def.color},
 		},
-		use_texture_alpha = true,
+		-- use_texture_alpha = true,
 		stepheight = 1.1,
 		glow = def.glow,
 
