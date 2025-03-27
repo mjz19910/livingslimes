@@ -21,7 +21,6 @@ livingslimes.register_slime("Mineral",{
     ["default:stone_with_mese"] = 17,
     ["mcl_core:stone_with_redstone"] = 17,
     ["mcl_core:stone_with_lapis"] = 17,
-    ["mcl_core:stone_with_redstone"] = 17,
     ["default:stone_with_gold"] = 16,
     ["mcl_core:stone_with_gold"] = 16,
     ["default:stone_with_iron"] = 15,
